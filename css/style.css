@@ -170,15 +170,17 @@ hr {
 		align-items: center;
 	}
 
-	.main-article {
-		width: 60%;
-		border-radius: 0.6rem;
-		margin: 0;
-	}
+	.container {
+        display: flex;
+        gap: 1.6rem;
+		flex-direction: row;
+    }
 
-	.main-sidebar {
-		width: 40%;
-		border-radius: 0.6rem;
-		margin: 0;
-	}
+    .main-article {
+        flex: 3; /* 60% */
+    }
+
+    .main-sidebar {
+        flex: 2; /* 40% */
+    }
 }
